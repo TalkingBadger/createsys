@@ -1,0 +1,191 @@
+REMARK   1 CREATED WITH MDTraj 1.11.0, 2025-11-06
+CRYST1   33.107   33.107   33.107  90.00  90.00  90.00 P 1           1 
+ATOM      1  C1x HCN A   1      -1.880   0.395   1.261  1.00  0.00           C  
+ATOM      2  N1x HCN A   1      -2.462   1.391   1.364  1.00  0.00           N  
+ATOM      3  H1x HCN A   1      -1.286  -0.511   1.312  1.00  0.00           H  
+ATOM      4  C1x HCN A   2       5.689  -2.210  -1.277  1.00  0.00           C  
+ATOM      5  N1x HCN A   2       5.692  -1.662  -0.250  1.00  0.00           N  
+ATOM      6  H1x HCN A   2       5.602  -2.519  -2.313  1.00  0.00           H  
+ATOM      7  C1x HCN A   3      -7.019  -2.934  -1.484  1.00  0.00           C  
+ATOM      8  N1x HCN A   3      -6.505  -3.570  -0.667  1.00  0.00           N  
+ATOM      9  H1x HCN A   3      -7.386  -2.244  -2.237  1.00  0.00           H  
+ATOM     10  C1x HCN A   4       4.063   3.390   5.618  1.00  0.00           C  
+ATOM     11  N1x HCN A   4       4.341   2.813   4.654  1.00  0.00           N  
+ATOM     12  H1x HCN A   4       3.646   3.877   6.493  1.00  0.00           H  
+ATOM     13  C1x HCN A   5      -3.301  -5.021  -0.079  1.00  0.00           C  
+ATOM     14  N1x HCN A   5      -2.414  -5.725   0.046  1.00  0.00           N  
+ATOM     15  H1x HCN A   5      -4.059  -4.268  -0.263  1.00  0.00           H  
+ATOM     16  C1x HCN A   6      -1.398  -4.562   3.255  1.00  0.00           C  
+ATOM     17  N1x HCN A   6      -2.510  -4.892   3.241  1.00  0.00           N  
+ATOM     18  H1x HCN A   6      -0.437  -4.066   3.177  1.00  0.00           H  
+ATOM     19  C1x HCN A   7       5.096   3.858  -0.790  1.00  0.00           C  
+ATOM     20  N1x HCN A   7       4.202   4.539  -0.752  1.00  0.00           N  
+ATOM     21  H1x HCN A   7       6.062   3.390  -0.948  1.00  0.00           H  
+ATOM     22  C1x HCN A   8      -0.065   2.903   4.735  1.00  0.00           C  
+ATOM     23  N1x HCN A   8      -1.102   3.145   5.208  1.00  0.00           N  
+ATOM     24  H1x HCN A   8       0.924   2.666   4.361  1.00  0.00           H  
+ATOM     25  C1x HCN A   9      -1.247   1.686  -4.995  1.00  0.00           C  
+ATOM     26  N1x HCN A   9      -0.343   1.879  -4.294  1.00  0.00           N  
+ATOM     27  H1x HCN A   9      -2.092   1.592  -5.669  1.00  0.00           H  
+ATOM     28  C1x HCN A  10       4.600  -2.072   4.209  1.00  0.00           C  
+ATOM     29  N1x HCN A  10       5.722  -2.222   4.506  1.00  0.00           N  
+ATOM     30  H1x HCN A  10       3.569  -1.979   3.888  1.00  0.00           H  
+ATOM     31  C1x HCN A  11       6.757   0.322   2.297  1.00  0.00           C  
+ATOM     32  N1x HCN A  11       6.445   1.342   1.781  1.00  0.00           N  
+ATOM     33  H1x HCN A  11       7.128  -0.622   2.683  1.00  0.00           H  
+ATOM     34  C1x HCN A  12       3.937  -1.991  -4.648  1.00  0.00           C  
+ATOM     35  N1x HCN A  12       4.316  -3.026  -4.295  1.00  0.00           N  
+ATOM     36  H1x HCN A  12       3.651  -1.008  -5.003  1.00  0.00           H  
+ATOM     37  C1x HCN A  13       2.558   2.979  -3.511  1.00  0.00           C  
+ATOM     38  N1x HCN A  13       3.472   2.660  -4.129  1.00  0.00           N  
+ATOM     39  H1x HCN A  13       1.735   3.378  -2.928  1.00  0.00           H  
+ATOM     40  C1x HCN A  14       1.899   6.802  -1.685  1.00  0.00           C  
+ATOM     41  N1x HCN A  14       2.159   6.412  -2.742  1.00  0.00           N  
+ATOM     42  H1x HCN A  14       1.583   7.241  -0.745  1.00  0.00           H  
+ATOM     43  C1x HCN A  15       2.603   0.583   2.792  1.00  0.00           C  
+ATOM     44  N1x HCN A  15       1.466   0.526   2.678  1.00  0.00           N  
+ATOM     45  H1x HCN A  15       3.604   0.636   3.206  1.00  0.00           H  
+ATOM     46  C1x HCN A  16      -2.929  -4.051  -4.917  1.00  0.00           C  
+ATOM     47  N1x HCN A  16      -2.148  -3.217  -5.075  1.00  0.00           N  
+ATOM     48  H1x HCN A  16      -3.628  -4.880  -4.959  1.00  0.00           H  
+ATOM     49  C1x HCN A  17       3.619  -4.464   1.890  1.00  0.00           C  
+ATOM     50  N1x HCN A  17       2.676  -4.318   2.544  1.00  0.00           N  
+ATOM     51  H1x HCN A  17       4.423  -4.575   1.170  1.00  0.00           H  
+ATOM     52  C1x HCN A  18      -4.578  -2.586   4.473  1.00  0.00           C  
+ATOM     53  N1x HCN A  18      -4.945  -2.295   5.531  1.00  0.00           N  
+ATOM     54  H1x HCN A  18      -4.299  -2.857   3.460  1.00  0.00           H  
+ATOM     55  C1x HCN A  19       0.217   7.322   3.562  1.00  0.00           C  
+ATOM     56  N1x HCN A  19      -0.837   7.453   3.981  1.00  0.00           N  
+ATOM     57  H1x HCN A  19       1.227   7.260   3.170  1.00  0.00           H  
+ATOM     58  C1x HCN A  20       1.034  -3.231  -0.139  1.00  0.00           C  
+ATOM     59  N1x HCN A  20       0.405  -2.664   0.663  1.00  0.00           N  
+ATOM     60  H1x HCN A  20       1.688  -3.665  -0.887  1.00  0.00           H  
+ATOM     61  C1x HCN A  21       1.332  -0.530  -2.943  1.00  0.00           C  
+ATOM     62  N1x HCN A  21       0.912  -1.584  -3.158  1.00  0.00           N  
+ATOM     63  H1x HCN A  21       1.734   0.424  -2.620  1.00  0.00           H  
+ATOM     64  C1x HCN A  22      -6.017   4.058   0.504  1.00  0.00           C  
+ATOM     65  N1x HCN A  22      -5.690   3.047   0.921  1.00  0.00           N  
+ATOM     66  H1x HCN A  22      -6.306   5.057   0.196  1.00  0.00           H  
+ATOM     67  C1x HCN A  23      -1.806  -0.785   5.114  1.00  0.00           C  
+ATOM     68  N1x HCN A  23      -1.749  -1.183   4.011  1.00  0.00           N  
+ATOM     69  H1x HCN A  23      -1.894  -0.351   6.104  1.00  0.00           H  
+ATOM     70  C1x HCN A  24      -6.593   1.022  -2.008  1.00  0.00           C  
+ATOM     71  N1x HCN A  24      -5.893   0.382  -1.345  1.00  0.00           N  
+ATOM     72  H1x HCN A  24      -7.176   1.696  -2.625  1.00  0.00           H  
+ATOM     73  C1x HCN A  25      -2.230  -1.213  -2.700  1.00  0.00           C  
+ATOM     74  N1x HCN A  25      -2.677  -1.372  -1.642  1.00  0.00           N  
+ATOM     75  H1x HCN A  25      -1.743  -0.959  -3.635  1.00  0.00           H  
+ATOM     76  C1x HCN A  26      -7.793   0.158   1.041  1.00  0.00           C  
+ATOM     77  N1x HCN A  26      -7.789  -0.999   1.148  1.00  0.00           N  
+ATOM     78  H1x HCN A  26      -7.903   1.231   0.933  1.00  0.00           H  
+TER      79      HCN A  26
+ATOM     80  O   HOH B   1      -4.310  -1.686   1.152  1.00  0.00           O  
+ATOM     81  H1  HOH B   1      -3.542  -1.744   0.585  1.00  0.00           H  
+ATOM     82  H2  HOH B   1      -5.025  -1.440   0.565  1.00  0.00           H  
+ATOM     83  O   HOH B   2      -5.030   0.626   5.716  1.00  0.00           O  
+ATOM     84  H1  HOH B   2      -4.836   0.973   4.845  1.00  0.00           H  
+ATOM     85  H2  HOH B   2      -5.414  -0.235   5.551  1.00  0.00           H  
+ATOM     86  O   HOH B   3       2.158   0.572  -6.212  1.00  0.00           O  
+ATOM     87  H1  HOH B   3       1.871   1.240  -6.835  1.00  0.00           H  
+ATOM     88  H2  HOH B   3       1.403   0.440  -5.638  1.00  0.00           H  
+ATOM     89  O   HOH B   4       1.678  -0.799   6.092  1.00  0.00           O  
+ATOM     90  H1  HOH B   4       1.385  -1.695   5.927  1.00  0.00           H  
+ATOM     91  H2  HOH B   4       1.164  -0.513   6.847  1.00  0.00           H  
+ATOM     92  O   HOH B   5       1.481   1.870  -0.316  1.00  0.00           O  
+ATOM     93  H1  HOH B   5       2.368   1.678  -0.620  1.00  0.00           H  
+ATOM     94  H2  HOH B   5       1.233   1.102   0.199  1.00  0.00           H  
+ATOM     95  O   HOH B   6       0.796   5.055  -5.146  1.00  0.00           O  
+ATOM     96  H1  HOH B   6       0.643   5.777  -5.756  1.00  0.00           H  
+ATOM     97  H2  HOH B   6       1.393   5.417  -4.491  1.00  0.00           H  
+ATOM     98  O   HOH B   7       1.609  -2.177  -6.912  1.00  0.00           O  
+ATOM     99  H1  HOH B   7       1.930  -1.368  -6.513  1.00  0.00           H  
+ATOM    100  H2  HOH B   7       0.662  -2.054  -6.975  1.00  0.00           H  
+ATOM    101  O   HOH B   8       5.352   0.592  -2.951  1.00  0.00           O  
+ATOM    102  H1  HOH B   8       5.276   1.270  -3.623  1.00  0.00           H  
+ATOM    103  H2  HOH B   8       6.008  -0.014  -3.295  1.00  0.00           H  
+ATOM    104  O   HOH B   9      -1.281  -0.804  -6.627  1.00  0.00           O  
+ATOM    105  H1  HOH B   9      -1.667  -0.514  -7.454  1.00  0.00           H  
+ATOM    106  H2  HOH B   9      -2.010  -0.799  -6.007  1.00  0.00           H  
+ATOM    107  O   HOH B  10       1.404  -3.504   6.365  1.00  0.00           O  
+ATOM    108  H1  HOH B  10       2.075  -3.682   7.024  1.00  0.00           H  
+ATOM    109  H2  HOH B  10       1.517  -4.198   5.715  1.00  0.00           H  
+TER     110      HOH B  10
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1
+CONECT    4    5    6
+CONECT    5    4
+CONECT    6    4
+CONECT    7    8    9
+CONECT    8    7
+CONECT    9    7
+CONECT   10   11   12
+CONECT   11   10
+CONECT   12   10
+CONECT   13   14   15
+CONECT   14   13
+CONECT   15   13
+CONECT   16   17   18
+CONECT   17   16
+CONECT   18   16
+CONECT   19   20   21
+CONECT   20   19
+CONECT   21   19
+CONECT   22   23   24
+CONECT   23   22
+CONECT   24   22
+CONECT   25   26   27
+CONECT   26   25
+CONECT   27   25
+CONECT   28   29   30
+CONECT   29   28
+CONECT   30   28
+CONECT   31   32   33
+CONECT   32   31
+CONECT   33   31
+CONECT   34   35   36
+CONECT   35   34
+CONECT   36   34
+CONECT   37   38   39
+CONECT   38   37
+CONECT   39   37
+CONECT   40   41   42
+CONECT   41   40
+CONECT   42   40
+CONECT   43   44   45
+CONECT   44   43
+CONECT   45   43
+CONECT   46   47   48
+CONECT   47   46
+CONECT   48   46
+CONECT   49   50   51
+CONECT   50   49
+CONECT   51   49
+CONECT   52   53   54
+CONECT   53   52
+CONECT   54   52
+CONECT   55   56   57
+CONECT   56   55
+CONECT   57   55
+CONECT   58   59   60
+CONECT   59   58
+CONECT   60   58
+CONECT   61   62   63
+CONECT   62   61
+CONECT   63   61
+CONECT   64   65   66
+CONECT   65   64
+CONECT   66   64
+CONECT   67   68   69
+CONECT   68   67
+CONECT   69   67
+CONECT   70   71   72
+CONECT   71   70
+CONECT   72   70
+CONECT   73   74   75
+CONECT   74   73
+CONECT   75   73
+CONECT   76   77   78
+CONECT   77   76
+CONECT   78   76
+END
