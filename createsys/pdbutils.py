@@ -108,3 +108,31 @@ def createTopologyAndForcefieldFromPDB(pdbfile):
     system = forcefield.createSystem(topology)
 
     return topology, forcefield
+
+def getAtomIndicesFromChainIDs(pdbfile: str, chain_ids: str, return_dict: bool=False):
+    """Get the atom indices from the given chain ids from the pdbfile
+
+    Args:
+        pdbfile (str): name of the pdb file to parse.
+        chain_ids (iterable): Ids of the chains whose atom indices should be returned.
+        return_dict (bool): Default False. If true, the atom indices are returned in a dict with the corresponding chain ids as keys.
+
+    Returns:
+        flattened_list (list): Flattened list of atom indices. Returns a dict if return_dict is True. 
+    """ 
+    
+    pdb = PDBFile(pdbfile)
+    chain_atom_indices = {}
+    flattened_list = []
+
+    atom_index = 0
+    for chain in pdb.topology.chains():
+        if chain.id in chain_ids:
+            indices = [atom.index for atom in chain.atoms()]
+            chain_atom_indices[chain.id] = indices
+            flattened_list.extend(indices)
+        atom_index += sum(1 for _ in chain.atoms())
+
+    if return_dict:
+        return chain_atom_indices
+    return flattened_list
