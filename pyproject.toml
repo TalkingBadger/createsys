@@ -4,9 +4,12 @@ version = "0.1"
 dependencies = [
 ]
 
+[tool.setuptools]
+include-package-data = true
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["createsys*"]
 
 [tool.setuptools.package-data]
-"createsys" = ["data/*"]
+"createsys" = ["data/**/*"]
