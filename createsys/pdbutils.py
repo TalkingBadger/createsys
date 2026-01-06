@@ -136,3 +136,31 @@ def getAtomIndicesFromChainIDs(pdbfile: str, chain_ids: str, return_dict: bool=F
     if return_dict:
         return chain_atom_indices
     return flattened_list
+
+def getAtomIndicesFromResidueNames(pdbfile: str, residue_names: list[str], return_dict: bool=False):
+    """Get the atom indices from the given residue names from the pdbfile
+
+    Args:
+        pdbfile (str): name of the pdb file to parse.
+        residue_names (iterable): Names of the residues whose atom indices should be returned.
+        return_dict (bool): Default False. If true, the atom indices are returned in a dict with the corresponding residue names as keys.
+
+    Returns:
+        flattened_list (list): Flattened list of atom indices. Returns a dict if return_dict is True. 
+    """ 
+    
+    pdb = PDBFile(pdbfile)
+    residue_atom_indices = {}
+    flattened_list = []
+
+    for residue in pdb.topology.residues():
+        if residue.name in residue_names:
+            indices = [atom.index for atom in residue.atoms()]
+            if residue.name not in residue_atom_indices:
+                residue_atom_indices[residue.name] = []
+            residue_atom_indices[residue.name].extend(indices)
+            flattened_list.extend(indices)
+
+    if return_dict:
+        return residue_atom_indices
+    return flattened_list
