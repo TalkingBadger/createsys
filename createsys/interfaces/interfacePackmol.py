@@ -38,10 +38,11 @@ class packmolBuilder:
     def remove_inputfile(self, inputfilename="packmol.inp"):
         os.remove(inputfilename)
     
-    def run(self, outfile=None, inputfilename="packmol.inp"):
+    def run(self, outfile=None, inputfilename="packmol.inp", remove_inputfile=True):
         self.write_input(inputfilename, outfile)
         self.execute_packmol(inputfilename)
-        #self.remove_inputfile(inputfilename)
+        if remove_inputfile:
+            self.remove_inputfile(inputfilename)
 
     @staticmethod 
     def convert_box_args(*args):
