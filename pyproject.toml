@@ -2,7 +2,19 @@
 name = "createsys"
 version = "0.1"
 dependencies = [
+    "mdtraj",
+    "packmol>=20.15.0",
+    "adaptive_sampling",
+    "openmm",
 ]
+authors = [
+    {name = "Arne Beckmann", email = "arne.beckmann@cup.uni-muenchen.de"}
+]
+maintainers = [
+    {name = "Arne Beckmann", email = "arne.beckmann@cup.uni-muenchen.de"}
+]
+description = "Create equilibrated systems for QM/MM hyperreactor dynamics!"
+readme = "README.md"
 
 [tool.setuptools]
 include-package-data = true
