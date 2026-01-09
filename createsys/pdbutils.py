@@ -20,7 +20,6 @@ def massFromPdb(pdbfile: str):
 
 def createTopologyAndForcefieldFromPDB(pdbfile):
     #Read in coordinates of the full system
-    fragment = Fragment(pdbfile=pdbfile)
     # create OpenMM system
     def add_conformer(mol, coords: list[list]):
         """Converts Bohr to Angstrom for RDKit compatibility!"""
