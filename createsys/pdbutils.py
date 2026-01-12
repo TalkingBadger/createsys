@@ -18,7 +18,19 @@ def xyz2pdb(xyzfile: str, molname="MOL"):
 def massFromPdb(pdbfile: str):
     return Fragment(pdbfile=pdbfile).mass
 
-def createTopologyAndForcefieldFromPDB(pdbfile):
+def createTopologyAndForcefieldFromPDB(pdbfile, forcefield='openff-2.2.1'):
+    """Create an OpenMM Topology and Forcefield from a PDB file using OpenFF/SMIRNOFF for parametrization.
+    Each molecule should be in a separate residue in the PDB file.
+    Bond orders are determined using RDKit.
+    If no CONECT records are present, the connectivity is also determined using RDKit.
+    
+    Args:
+        pdbfile (str): Path to the PDB file.
+        forcefield (str): Name of the OpenFF forcefield to use. Default is 'openff-2.2.1'.
+    
+    Returns:
+        topology (openmm.app.Topology): OpenMM Topology object.
+        forcefield (openmm.app.ForceField): OpenMM ForceField object"""
     #Read in coordinates of the full system
     # create OpenMM system
     def add_conformer(mol, coords: list[list]):
@@ -97,7 +109,7 @@ def createTopologyAndForcefieldFromPDB(pdbfile):
 
 
     molecules = mm_mols
-    smirnoff = SMIRNOFFTemplateGenerator(molecules=molecules)
+    smirnoff = SMIRNOFFTemplateGenerator(molecules=molecules, forcefield=forcefield)
 
     # maybe more standard FFs can be added to match all possible molecules
     forcefield = ForceField('amber/protein.ff14SB.xml', 'amber/tip3p_standard.xml', 'amber/tip3p_HFE_multivalent.xml')
