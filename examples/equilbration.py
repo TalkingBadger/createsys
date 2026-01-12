@@ -1,8 +1,10 @@
 from createsys import Equilibrator
 
-import os
 
-eq = Equilibrator('example_system_adenine.pdb')
+# now run the initial_configuration example to create a system
+from initial_configuration import outfile, radius_inner
+
+eq = Equilibrator(outfile)
 
 eq.minimize_energy(max_iterations=500)
 eq.warmup_simulation()
