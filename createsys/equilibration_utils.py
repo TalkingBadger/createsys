@@ -152,7 +152,7 @@ class Equilibrator:
             outfile (str): output PDB filename
         """
         with open(outfile, 'w') as file:
-            app.outfile.writeFile(self.topology, self.positions, file)
+            app.PDBFile.writeFile(self.topology, self.positions, file)
     
     def equilibrate_box(
         self,
